@@ -1,0 +1,5 @@
+#!/bin/sh	
+
+cp {{pkg.svc_config_path}}/style.css {{pkg.path}}/app/public/stylesheets/style.css 2>&1
+
+# ln -vsf {{pkg.svc_config_path}}/style.css {{pkg.path}}/app/public/stylesheets/style.css 2>&1
